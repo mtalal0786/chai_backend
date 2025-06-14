@@ -1,0 +1,16 @@
+{
+  "name": "chai_backend",
+  "version": "1.0.0",
+  "description": "backend project to learn backend using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javacsriot",
+    "nodejs",
+    "backend"
+  ],
+  "author": "Histash",
+  "license": "ISC"
+}
