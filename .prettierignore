@@ -1,0 +1,38 @@
+# Ignore node_modules
+./node_modules/
+
+# Ignore build output directories
+./dist/
+./build/
+
+# Ignore configuration files
+*.config.js
+*.json
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore test coverage directory
+/coverage/
+
+# Ignore all files in the "public" directory (if you want to exclude static files)
+public/
+
+# Ignore generated files, such as compiled assets
+*.min.js
+*.min.css
+*.map
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore certain file extensions
+*.md
+*.html
+*.svg
+*.json
+*.txt
+# Ignore IDE/editor specific files
+/.vscode/
