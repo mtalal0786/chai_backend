@@ -8,6 +8,10 @@ dotenv.config(
     }
 );
 
+console.log("Environment Variables in index.js:", {
+    PORT: process.env.PORT
+});
+
 connectDB() // Connect to the database
     .then(() => {
         app.on("error", (error) => {
