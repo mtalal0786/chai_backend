@@ -1,8 +1,8 @@
 class ApiError extends Error {
     constructor(
         statuaCode,
-        message="Something went wrong"
-        ,errors=[],
+        message="Something went wrong",
+        errors=[],
         stack="") {
         super(message);
         this.statusCode = statuaCode;
